@@ -3,3 +3,6 @@ dist
 .env
 *.log
 .DS_Store
+cormen.js
+test.js
+temp.html
