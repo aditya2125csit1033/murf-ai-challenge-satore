@@ -1,0 +1,227 @@
+@import url("https://use.typekit.net/vzs0dfh.css");
+
+.bg-video{
+  opacity: 0.3;
+}
+.Survey{
+  font-family: "poppins", sans-serif;
+font-weight: 100;
+font-style: normal;
+
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading{
+  margin: 0;
+  font-size: 2.5vw;
+  line-height: 1.5;
+  margin-bottom: 3vh;
+}
+
+.SurveyContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 4vw;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.description{
+   margin: 0;
+  font-size: 1.2vw;
+  line-height: 1.8;
+}
+
+.Left{
+  
+  /* background-color: #00000096; */
+  box-shadow: -20px -2px 100px 60px rgb(0, 0, 0);
+  border-radius: 10px;
+  border-right: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  /* align-items: center; */
+  width: 40%;
+  height: 98%;
+  
+  padding-right: 3vw;
+  padding-left: 4vh;
+
+}
+
+
+.Right{
+  box-shadow: 20px -2px 100px 60px rgb(0, 0, 0);
+  /* background-color: #00000096; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border-left: 2px solid white;
+  /* margin: 0px 0px 0px 0px; */
+  width: 40%;
+  height: 98%;
+  /* padding: 15px; */
+  /* background-color: black; */
+
+}
+
+.QuestionBlock{
+  font-size: 1.7vw;
+
+}
+
+.Psychometric{
+  font-size: 1.2vw;
+  box-shadow: -20px -2px 100px 60px rgb(0, 0, 0);
+  border-radius: 10px;
+  /* border-right: 2px solid white; */
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+  
+  padding-right: 3vw;
+  padding-left: 4vh;
+}
+
+.toggleButtons{
+transition: all 0.2s ease;
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: clamp( 0.2vw, 1.5vw, 2vw) ;
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  text-align: center;
+  
+
+}
+
+.toggleButtons:hover{
+  
+  font-size: clamp( 1.1vw, 1.6vw, 2.1vw) ;
+  background-color: rgba(255, 255, 255, 0.196);
+  box-shadow: 0px -2px 22px 3px whitesmoke;
+font-weight: 400;
+
+
+}
+
+.Prev{
+  height: 100%;
+  width: 100%;
+}
+.Buts{
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center
+
+}
+
+@media (max-width: 1403px) {
+
+.toggleButtons{
+  
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 2.5vw ;
+ 
+}
+
+.Buts{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  /* width: 19%; */
+  height: 100%;
+  font-size: 2.5vw ;
+ 
+}
+
+.toggleButtons:hover {
+  
+  color: white;
+  width: 100%;
+  height: 100%;
+  font-size: 2.7vw ;
+ 
+}
+
+.Buts:hover {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: white;
+  /* width: 19%; */
+  height: 100%;
+  font-size: 2.7vw ;
+ 
+}
+}
+
+@media (max-width: 768px) {
+  .SurveyContainer {
+    flex-direction: column;
+    gap: 4vh;
+    padding: 2vh;
+    height: auto;
+  }
+
+  .Left, .Right {
+    width: 90%;
+    height: auto;
+    border: none;
+    box-shadow: none;
+  }
+
+  .description {
+    font-size: 4vw;
+    line-height: 1.6;
+  }
+
+  .heading {
+    font-size: 6vw;
+    line-height: 1.2;
+  }
+
+  .Psychometric {
+    padding: 2vh;
+  }
+
+  .toggleButtons {
+    font-size: 3.5vw;
+    width: 100%;
+    padding: 1vh 0;
+  }
+
+  .Prev {
+    width: 40%;
+  }
+
+  .Buts {
+    flex-direction: column;
+    gap: 2vh;
+    width: 100%;
+  }
+}
+
