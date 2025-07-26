@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "./static/css/main.06c0f44f.css",
+    "main.js": "./static/js/main.b0aee0be.js",
+    "static/media/BUILD_AVG_RES.mp4": "./static/media/BUILD_AVG_RES.4057c2a42853ec18eeeb.mp4",
+    "static/media/Background_Video.mp4": "./static/media/Background_Video.12d7d570a1ed507e59bf.mp4",
+    "static/media/HealerIntro.wav": "./static/media/HealerIntro.4aca6eab979456d58479.wav",
+    "static/media/CreatorIntro.wav": "./static/media/CreatorIntro.ea378818ef6507958c47.wav",
+    "static/media/ReformerIntro.wav": "./static/media/ReformerIntro.a44b4a893d1d7c793555.wav",
+    "static/media/CompanionIntro.wav": "./static/media/CompanionIntro.e3f809c8617c9f890a67.wav",
+    "static/media/SageIntro.wav": "./static/media/SageIntro.c035891a6e5f7aa2a42b.wav",
+    "index.html": "./index.html",
+    "main.06c0f44f.css.map": "./static/css/main.06c0f44f.css.map",
+    "main.b0aee0be.js.map": "./static/js/main.b0aee0be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06c0f44f.css",
+    "static/js/main.b0aee0be.js"
+  ]
+}
