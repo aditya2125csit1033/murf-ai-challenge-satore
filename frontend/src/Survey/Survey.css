@@ -97,8 +97,8 @@ font-style: normal;
 .toggleButtons{
 transition: all 0.2s ease;
   color: white;
-  width: 100%;
-  height: 100%;
+  width: 40%;
+  height: 40%;
   font-size: clamp( 0.2vw, 1.5vw, 2vw) ;
   border: 2px solid white;
   background-color: transparent;
@@ -118,10 +118,6 @@ font-weight: 400;
 
 }
 
-.Prev{
-  height: 100%;
-  width: 100%;
-}
 .Buts{
   width: 100%;
   height: 15%;
@@ -132,7 +128,7 @@ font-weight: 400;
 
 }
 
-@media (max-width: 1403px) {
+/* @media (max-width: 1403px) {
 
 .toggleButtons{
   
@@ -150,7 +146,7 @@ font-weight: 400;
   align-items: center;
   width: 100%;
   color: white;
-  /* width: 19%; */
+  
   height: 100%;
   font-size: 2.5vw ;
  
@@ -172,12 +168,12 @@ font-weight: 400;
   align-items: center;
   width: 100%;
   color: white;
-  /* width: 19%; */
+  
   height: 100%;
   font-size: 2.7vw ;
  
 }
-}
+} */
 
 @media (max-width: 768px) {
   .SurveyContainer {
@@ -213,7 +209,11 @@ font-weight: 400;
     width: 100%;
     padding: 1vh 0;
   }
-
+  .toggleButtons:hover {
+    font-size: 3.8vw;
+    width: 100%;
+    padding: 1vh 0;
+  }
   .Prev {
     width: 40%;
   }
@@ -224,4 +224,3 @@ font-weight: 400;
     width: 100%;
   }
 }
-
