@@ -12,7 +12,7 @@ Follow the steps below to set up the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone [https://github.com/your-username/satore.git](https://github.com/aditya2125csit1033/murf-ai-challenge-satore.git)
+git clone https://github.com/your-username/satore.git](https://github.com/aditya2125csit1033/murf-ai-challenge-satore.git
 cd murf-ai-challenge-satore
 ````
 
