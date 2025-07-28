@@ -64,6 +64,12 @@ murf-ai-challenge-satore/
 
 ---
 
+## Note
+
+Adding the .env file consisting GROK_API_KEY and MURF_API_KEY in the root directory is must.
+
+---
+
 ## 🤍 Contributions
 
 Feel free to fork and enhance it. Open an issue if you'd like to suggest improvements or new features.
